@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7F240A18220D3A2300637665"
-               BuildableName = "MattermostShare.appex"
-               BlueprintName = "MattermostShare"
+               BuildableName = "AnnetteIMShare.appex"
+               BlueprintName = "AnnetteIMShare"
                ReferencedContainer = "container:Mattermost.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F240A18220D3A2300637665"
-            BuildableName = "MattermostShare.appex"
-            BlueprintName = "MattermostShare"
+            BuildableName = "AnnetteIMShare.appex"
+            BlueprintName = "AnnetteIMShare"
             ReferencedContainer = "container:Mattermost.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F240A18220D3A2300637665"
-            BuildableName = "MattermostShare.appex"
-            BlueprintName = "MattermostShare"
+            BuildableName = "AnnetteIMShare.appex"
+            BlueprintName = "AnnetteIMShare"
             ReferencedContainer = "container:Mattermost.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -92,8 +92,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7F240A18220D3A2300637665"
-            BuildableName = "MattermostShare.appex"
-            BlueprintName = "MattermostShare"
+            BuildableName = "AnnetteIMShare.appex"
+            BlueprintName = "AnnetteIMShare"
             ReferencedContainer = "container:Mattermost.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

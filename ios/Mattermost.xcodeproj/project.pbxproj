@@ -33,7 +33,7 @@
 		7F151D41221B069200FAD8F3 /* 0155-keys.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F151D40221B069200FAD8F3 /* 0155-keys.png */; };
 		7F240A1C220D3A2300637665 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F240A1B220D3A2300637665 /* ShareViewController.swift */; };
 		7F240A1F220D3A2300637665 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F240A1D220D3A2300637665 /* MainInterface.storyboard */; };
-		7F240A23220D3A2300637665 /* MattermostShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7F240A19220D3A2300637665 /* MattermostShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F240A23220D3A2300637665 /* AnnetteIMShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7F240A19220D3A2300637665 /* AnnetteIMShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7F240ACD220D460300637665 /* MattermostBucketModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F240ACC220D460300637665 /* MattermostBucketModule.m */; };
 		7F240AD0220D4A6100637665 /* KeyChainDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F240ACE220D4A6100637665 /* KeyChainDataSource.mm */; };
 		7F240ADB220E089300637665 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F240ADA220E089300637665 /* Item.swift */; };
@@ -128,7 +128,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				7F240A23220D3A2300637665 /* MattermostShare.appex in Embed App Extensions */,
+				7F240A23220D3A2300637665 /* AnnetteIMShare.appex in Embed App Extensions */,
 				7F581D39221ED5C60099E66B /* NotificationService.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -178,7 +178,7 @@
 		7F151D40221B069200FAD8F3 /* 0155-keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0155-keys.png"; path = "Mattermost/0155-keys.png"; sourceTree = "<group>"; };
 		7F151D42221B07F700FAD8F3 /* MattermostShare-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MattermostShare-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F151D43221B082A00FAD8F3 /* Mattermost-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Mattermost-Bridging-Header.h"; path = "Mattermost/Mattermost-Bridging-Header.h"; sourceTree = "<group>"; };
-		7F240A19220D3A2300637665 /* MattermostShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MattermostShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F240A19220D3A2300637665 /* AnnetteIMShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnnetteIMShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F240A1B220D3A2300637665 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		7F240A1E220D3A2300637665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		7F240A20220D3A2300637665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -474,7 +474,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* Mattermost.app */,
-				7F240A19220D3A2300637665 /* MattermostShare.appex */,
+				7F240A19220D3A2300637665 /* AnnetteIMShare.appex */,
 				7F581D32221ED5C60099E66B /* NotificationService.appex */,
 			);
 			name = Products;
@@ -483,9 +483,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* Mattermost */ = {
+		13B07F861A680F5B00A75B9A /* AnnetteIM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mattermost" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AnnetteIM" */;
 			buildPhases = (
 				484322B86D8320281D95970F /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -505,14 +505,14 @@
 				7F240A22220D3A2300637665 /* PBXTargetDependency */,
 				7F581D38221ED5C60099E66B /* PBXTargetDependency */,
 			);
-			name = Mattermost;
+			name = AnnetteIM;
 			productName = "Hello World";
 			productReference = 13B07F961A680F5B00A75B9A /* Mattermost.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7F240A18220D3A2300637665 /* MattermostShare */ = {
+		7F240A18220D3A2300637665 /* AnnetteIMShare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F240A24220D3A2300637665 /* Build configuration list for PBXNativeTarget "MattermostShare" */;
+			buildConfigurationList = 7F240A24220D3A2300637665 /* Build configuration list for PBXNativeTarget "AnnetteIMShare" */;
 			buildPhases = (
 				7F240A15220D3A2300637665 /* Sources */,
 				7F240A16220D3A2300637665 /* Frameworks */,
@@ -523,9 +523,9 @@
 			dependencies = (
 				7FAB4571222DD0DA00EBFFC8 /* PBXTargetDependency */,
 			);
-			name = MattermostShare;
+			name = AnnetteIMShare;
 			productName = MattermostShare;
-			productReference = 7F240A19220D3A2300637665 /* MattermostShare.appex */;
+			productReference = 7F240A19220D3A2300637665 /* AnnetteIMShare.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		7F581D31221ED5C60099E66B /* NotificationService */ = {
@@ -620,8 +620,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Mattermost */,
-				7F240A18220D3A2300637665 /* MattermostShare */,
+				13B07F861A680F5B00A75B9A /* AnnetteIM */,
+				7F240A18220D3A2300637665 /* AnnetteIMShare */,
 				7F581D31221ED5C60099E66B /* NotificationService */,
 			);
 		};
@@ -862,7 +862,7 @@
 /* Begin PBXTargetDependency section */
 		7F240A22220D3A2300637665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F240A18220D3A2300637665 /* MattermostShare */;
+			target = 7F240A18220D3A2300637665 /* AnnetteIMShare */;
 			targetProxy = 7F240A21220D3A2300637665 /* PBXContainerItemProxy */;
 		};
 		7F581D38221ED5C60099E66B /* PBXTargetDependency */ = {
@@ -1276,7 +1276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mattermost" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AnnetteIM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1285,7 +1285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F240A24220D3A2300637665 /* Build configuration list for PBXNativeTarget "MattermostShare" */ = {
+		7F240A24220D3A2300637665 /* Build configuration list for PBXNativeTarget "AnnetteIMShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F240A25220D3A2300637665 /* Debug */,
